@@ -2,9 +2,22 @@
 
 /* Set custom variables here */
 
+:root {
+ --bs-primary: #2e483a;
+ --bs-primary-rgb:46,72,58;
+}
 
+.navbar {
+  background-color: var(--bs-primary);
+}
 
+.nav-link {
+  color: #F6F3ED;
+}
 
+.btn-primary {
+  border-radius: 10px;
+}
 
 .navbar-brand {
   color: #F6F3ED;
@@ -12,6 +25,29 @@
 
 body {
   font-family: "Sarala", sans-serif;
+  background-color: #E4E6DB;
+}
+
+.section-2 {
+  padding: 4em;
+}
+
+.btn-banner {
+  color: #ffffff;
+  background-color: var(--bs-primary);
+  outline: none;
+  padding: 10px 20px;
+}
+
+.btn-yourplan {
+  color: #ffffff;
+  background-color: var(--bs-primary);
+  outline: none;
+  padding: 10px 20px;
+}
+
+.text {
+  padding-bottom: 2em;
 }
 
 h1, h2, h3 {
@@ -29,6 +65,10 @@ h1, h2, h3 {
 
 #hero .d-flex {
   height: 800px;
+}
+
+.hero-section {
+  padding: 4em;
 }
 
 #cta {
