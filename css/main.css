@@ -21,6 +21,7 @@
 
 .navbar-brand {
   color: #F6F3ED;
+  padding-left: 1em;
 }
 
 body {
@@ -32,10 +33,24 @@ body {
   padding: 4em;
 }
 
+.head-shot {
+  border-radius: 100%;
+}
+
+.customer {
+  padding-top: 2em;
+}
+
+.reviews {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
 .btn-banner {
   color: #ffffff;
   background-color: var(--bs-primary);
   outline: none;
+  border-style: none;
   padding: 10px 20px;
 }
 
@@ -43,11 +58,24 @@ body {
   color: #ffffff;
   background-color: var(--bs-primary);
   outline: none;
+  border-style: none;
   padding: 10px 20px;
+}
+
+.list-item {
+  padding-top: 2em;
 }
 
 .text {
   padding-bottom: 2em;
+}
+
+.questions {
+  padding: 4em;
+}
+
+footer {
+  background-color: #2e483a;
 }
 
 h1, h2, h3 {
@@ -72,6 +100,7 @@ h1, h2, h3 {
 }
 
 #cta {
+  height: 400px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/cta-bg.png');
   background-repeat: no-repeat;
   background-position: center;
@@ -80,6 +109,19 @@ h1, h2, h3 {
 
 #cta .d-flex {
   height: 400px;
+}
+
+.bottom-h2 {
+  color: #F6F3ED;
+}
+
+.bottom-button {
+  color: #ffffff;
+  background-color: var(--bs-primary);
+  outline: none;
+  border-style: none;
+  border-radius: 10px;
+  padding: 10px 20px;
 }
 
 section:not(#hero):not(#cta){
