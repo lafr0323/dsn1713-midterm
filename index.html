@@ -11,7 +11,7 @@
 
   <body>
     <header>
-      <nav class="navbar bg-primary navbar-expand-lg" data-bs-theme="dark">
+      <nav class="navbar bg-primary fixed-top navbar-expand-lg" data-bs-theme="dark">
         <div class="container-fluid">
           <a class="dd-logo navbar-brand" href="#">Daily Dish<img class="logo" src="Images/daily-dish-logo.svg" alt="Daily dish logo" width="35" height="auto">
           </a>
@@ -59,8 +59,8 @@
         <div class="container-fluid container-lg text-center">
           <h2>How it Works</h2>
           <p class="text pt-3">Say goodbye to meal planning stress! With Daily Dish, you’ll enjoy chef-crafted meals made from fresh, natural ingredients, delivered right to your door—ready to cook in minutes.</p>
-          <div class="row info-groups pb-5">
-            <div class="info-group col-lg-4">
+          <div class="row info-groups pt-5 pb-5">
+            <div class="info-group col-lg-4 ">
               <div>
                 <img src="images/meal.svg" alt="" width="100" height="auto">
               </div>
@@ -94,7 +94,7 @@
               <img class="img-fluid" src="images/family-eating.png" alt="Family enjoying dinner" width="auto">
             </div>
             <div class="col-lg-6 order-1 order-lg-2"> 
-              <ul class="list-group list-group-flush">
+              <ul class="list-group list-group-flush text-md-start">
                 <li class="list-group-item">
                   <h3>Save Time & Stress</h3>
                   <p>Skip the grocery store and meal prep. Everything you need is delivered—so you can focus on living, not planning.</p>
@@ -127,7 +127,7 @@
                   <blockquote>
                     <p>"Daily Dish has completely changed how I eat during the week. The meals are so easy, and the flavors are incredible!"</p>
                   </blockquote>
-                  <figcaption>
+                  <figcaption class="blockquote-footer">
                     Sarah, Busy Professional
                   </figcaption>
                 </figure>
@@ -138,7 +138,7 @@
                   <blockquote>
                     <p>"I love that I can adjust the menu to fit my family’s preferences. Daily Dish makes healthy eating simple for all of us."</p>
                   </blockquote>
-                  <figcaption>
+                  <figcaption class="blockquote-footer">
                     Tom, Father of Two
                   </figcaption>
                 </figure>
@@ -149,7 +149,7 @@
                   <blockquote>
                     <p>"As someone who’s new to cooking, I was nervous at first but Daily Dish makes it so easy."</p>
                   </blockquote>
-                  <figcaption>
+                  <figcaption class="blockquote-footer">
                     Julia, Novice Cook
                   </figcaption>
                 </figure>
@@ -222,20 +222,23 @@
 
     
     <footer class="container-fluid">
-      <div class="justify-content-between align-items-center">
-        <div class="row">
-          <div>
-            <a href="/">
-              <img src="images/daily-dish-logo.svg" alt="Logo" width="35" height="auto">
-            </a>
-            <span>&copy; 2024 Company, Inc</span>
-          
-            <ul class="nav justify-content-end">
-              <li><a href="#"><img src="images/instagram.svg" alt="Instagram logo" width="35" height="auto"></a></li>
-              <li><a href="#"><img src="images/facebook.svg" alt="Facebook logo" width="35" height="auto"></a></li>
+      <div class="row justify-content-between align-items-center">
+        <div class="col-auto d-flex align-items-center">
+          <a href="/" class="d-flex align-items-center">
+            <img src="images/daily-dish-logo.svg" alt="Logo" width="35" height="auto">
+          </a>
+          <span>&copy; 2024 Company, Inc</span>
+        </div>
+          <div class="col-auto">
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><img src="images/instagram.svg" alt="Instagram logo" width="35" height="auto"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><img src="images/facebook.svg" alt="Facebook logo" width="35" height="auto"></a>
+              </li>
             </ul>
-          </div>
-        </div>   
+          </div>  
       </div> 
     </footer>
 

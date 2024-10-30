@@ -20,6 +20,10 @@
   color: var(--light);
 }
 
+.blockquote-footer {
+  color: var(--light);
+}
+
 .navbar-brand {
   padding-left: 1em;
 }
