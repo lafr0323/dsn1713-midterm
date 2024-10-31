@@ -84,7 +84,7 @@ h1, h2, h3 {
 #hero {
   height: 800px;
   background-color: var(--light);
-  background-image: url(/Images/hero-bg-img.png);
+  background-image: url(../Images/hero-bg-img.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -100,7 +100,7 @@ h1, h2, h3 {
 
 #cta {
   height: 400px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Images/cta-bg.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Images/cta-bg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
